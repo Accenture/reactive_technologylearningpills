@@ -1,0 +1,24 @@
+<div style="text-align:center">
+  <h1>
+    Reactive Frontend
+  </h1>
+</div>
+<div>
+  <label for="clients">Selecciona un cliente:</label>
+  <select [(ngModel)]="selectedClient" id="clients"
+          name="clients">
+    <option *ngFor="let client of clients" [value]="client.id">{{client.name}}</option>
+  </select>
+</div>
+<div>
+  <table id="purchases">
+    <thead>
+      <td>Fecha de compra</td>
+      <td>Café</td>
+    </thead>
+    <tr *ngFor="let coffee of filterReports()">
+      <td>{{coffee.purchasedDate}}</td>
+      <td>{{coffee.coffeeName}}</td>
+    </tr>
+  </table>
+</div>

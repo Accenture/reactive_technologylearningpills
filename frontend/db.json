@@ -1,0 +1,50 @@
+{
+  "bar": [
+    {
+      "client": {
+        "id": 1,
+        "name": "Samuel",
+        "purchasedCoffees": 5
+      },
+      "coffees": [
+        {
+          "coffeeName": "Cortado",
+          "purchasedDate": "2020-5-11T20:47:45"
+        },
+        {
+          "coffeeName": "Cortado",
+          "purchasedDate": "2020-5-11T20:47:45"
+        },
+        {
+          "coffeeName": "Expresso",
+          "purchasedDate": "2020-5-13T20:47:45"
+        },
+        {
+          "coffeeName": "Caffe Latte",
+          "purchasedDate": "2020-5-28T20:47:45"
+        },
+        {
+          "coffeeName": "Expresso",
+          "purchasedDate": "2020-5-21T20:47:45"
+        }
+      ]
+    },
+    {
+      "client": {
+        "id": 2,
+        "name": "Mayte",
+        "purchasedCoffees": 2
+      },
+      "coffees": [
+        {
+          "coffeeName": "Expresso",
+          "purchasedDate": "2020-5-17T20:47:45"
+        },
+        {
+          "coffeeName": "Cortado",
+          "purchasedDate": "2020-5-12T20:47:45"
+        }
+      ]
+    }
+  ]
+}
